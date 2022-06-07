@@ -1,0 +1,5 @@
+.env
+wheels/
+plugins/*.zip
+plugins/*/
+miscellaneous/*/

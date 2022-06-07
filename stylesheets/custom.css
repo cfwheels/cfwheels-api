@@ -1,0 +1,74 @@
+body {font-family: 'Open Sans', sans-serif;}
+
+header#global {
+	background: linear-gradient(to bottom, #BF1616, #a30d0d);
+	color:white;
+	text-align: center;
+	font-weight: 700;
+  margin-bottom: 20px;
+}
+  header#global .main-logo {
+  	padding-top:10px;
+  	margin-bottom: 10px;
+  }
+  header#global .nav-pills>li>a {
+  	color:white;
+  }
+  header#global .nav-pills>li>a:hover {
+  	color:#BF1616;
+  }
+
+.center-pills { display: inline-block; }
+a {color: #a30d0d;}
+.navbar {
+	border-radius: 0; margin-bottom: 0; min-height: 50px;
+	background: none;
+	border:none;
+}
+.navbar-default {}
+  .navbar-inverse {background:#a30d0d; border-top-color: #840909;}
+  .navbar-inverse .navbar-nav>li>a {color:#e8e8e8;}
+  .navbar-inverse .navbar-nav>li>a:hover {color:white;}
+  .navbar-inverse .navbar-brand {color:white; font-weight: 700;}
+
+#sections a.section {font-weight: 700;}
+#sections .nav>li>a {padding:0;}
+#sections .nav>li>a.category {padding-left:8px;}
+
+#functionlistoutput {    overflow: scroll;
+    height: 570px;
+    overflow-x: hidden;}
+#functionlist a, #sections a {display: block; color: #a30d0d;  font-size: 13px;}
+#functionlist h1, #sections h1, #versions h1 {font-size: 18px;}
+
+.functitle {font-family: monospace; font-weight: 700; }
+.functiondefinition {margin-bottom: 10px; border-bottom: 1px solid #f4f4f4;  }
+.code {font-family: monospace; }
+#doc-search { width: 100%;}
+#searchclear {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.tab-content {padding:5px;}
+.tag {}
+
+/* Error Msgs */
+.flash-messages {
+
+}
+
+.flash-messages .error-message {
+  border: 1px solid #b2050e;
+  padding: 10px;
+  color:  #b2050e;
+  font-weight: bold;
+  background-color: #ffedee;
+}
