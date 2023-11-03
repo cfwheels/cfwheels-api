@@ -1,4 +1,4 @@
 <cfscript>
 	// Default "Current" Version to redirect to if no version specified
-	application.currentVersion="v2.5";
+	application.currentVersion="v2.5.0";
 </cfscript>
